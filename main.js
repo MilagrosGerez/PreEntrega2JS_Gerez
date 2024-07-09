@@ -40,7 +40,7 @@ const agregarAlCarrito = (producto, cantidad) => {
     alert(`Producto agregado al carrito: ${producto.nombre} - Cantidad: ${cantidad}`);
 };
 
-// Función para mostrar el contenido del carrito
+
 const mostrarCarrito = () => {
     if (carrito.length === 0) {
         alert("No hay productos en el carrito.");
